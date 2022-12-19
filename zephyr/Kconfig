@@ -1,0 +1,3 @@
+config CIVETWEB
+	bool "civetweb"
+	default n

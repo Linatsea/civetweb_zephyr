@@ -165,10 +165,9 @@ mg_static_assert(sizeof(void *) >= sizeof(int), "data type size check");
 #if defined(__ZEPHYR__)
 #include <time.h>
 
-#include <zephyr.h>
-#include <posix/time.h>
-#include <net/socket.h>
-#include <posix/pthread.h>
+#include <zephyr/posix/time.h>
+#include <zephyr/net/socket.h>
+#include <zephyr/posix/pthread.h>
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
